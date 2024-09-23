@@ -1,19 +1,24 @@
-variable "project_id" {
-  default = "impacto-insight"
+variable "bucket_id" {
+  type = string
 }
 
-variable "location" {
-  default = "southamerica-east1"
+variable "object_name" {
+  type = string
+}
+
+variable "region" {
+  type = string
+}
+
+variable "gcp_project_id" {
+  type = string
+}
+
+variable "table_id" {
+  default = "weather_metrics"
 }
 
 variable "dataset_id" {
   default = "weather_metrics_data"
 }
 
-variable "bucket_id" {
-  default = "weather_metrics_bucket"
-}
-
-variable "object_name" {
-  default = "weather_metrics"
-}
