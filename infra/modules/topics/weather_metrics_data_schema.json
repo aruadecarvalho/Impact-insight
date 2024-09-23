@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "weather_metrics_schema",
+  "fields": [
+    {
+      "name": "station_name",
+      "type": "string"
+    },
+    {
+      "name": "uf",
+      "type": "string"
+    },
+    {
+      "name": "date",
+      "type": "string"
+    },
+    {
+      "name": "precipitation_mm",
+      "type": "string"
+    },
+    {
+      "name": "temperature_c",
+      "type": "string"
+    }
+  ]
+}
