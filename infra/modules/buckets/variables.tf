@@ -7,7 +7,7 @@ variable "location" {
 }
 
 variable "csv_file_name" {
-  default = "weather_stations_temp_precip.csv"
+  type = string
 }
 
 variable "csv_file_folder" {

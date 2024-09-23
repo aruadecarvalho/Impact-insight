@@ -3,23 +3,23 @@
   "name": "weather_metrics_schema",
   "fields": [
     {
-      "name": "station_name",
+      "name": "Ano",
       "type": "string"
     },
     {
-      "name": "uf",
+      "name": "Mes",
       "type": "string"
     },
     {
-      "name": "date",
+      "name": "Precipitacao_diaria",
       "type": "string"
     },
     {
-      "name": "precipitation_mm",
+      "name": "Temperatura_diaria",
       "type": "string"
     },
     {
-      "name": "temperature_c",
+      "name": "qtd_reclamaoes_recebidas",
       "type": "string"
     }
   ]

@@ -7,7 +7,7 @@ locals {
 resource "google_pubsub_schema" "weather_metrics_data_schema" {
   name       = "weather_metrics_data_schema"
   type       = "AVRO"
-  definition = file("${path.module}/weather_metrics_data_schema_2.json")
+  definition = file("${path.module}/weather_metrics_data_schema.json")
 }
 
 resource "google_pubsub_topic" "pubsub_weather_metrics" {
