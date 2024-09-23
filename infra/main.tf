@@ -24,6 +24,7 @@ module "buckets" {
   gcp_project_id = var.gcp_project_id
   location       = var.region
   bucket_name    = var.bucket_name
+  csv_file_name = "analise_dados_oficial.csv"
 }
 
 module "datasets" {
