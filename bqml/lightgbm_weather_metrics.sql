@@ -8,7 +8,7 @@ OPTIONS(
 ) AS
 SELECT
   qtd_reclamacoes_recebidas,
-  Temperatura_diaria,
-  Precipitacao_diaria
+  temperatura_diaria,
+  precipitacao_diaria
 FROM
   weather_metrics_data.weather_metrics;

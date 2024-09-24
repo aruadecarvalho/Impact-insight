@@ -3,24 +3,24 @@
   "name": "weather_metrics_schema",
   "fields": [
     {
-      "name": "Ano",
-      "type": "string"
+      "name": "ano",
+      "type": "int"
     },
     {
-      "name": "Mes",
-      "type": "string"
+      "name": "mes",
+      "type": "int"
     },
     {
-      "name": "Precipitacao_diaria",
-      "type": "string"
+      "name": "precipitacao_diaria",
+      "type": "float"
     },
     {
-      "name": "Temperatura_diaria",
-      "type": "string"
+      "name": "temperatura_diaria",
+      "type": "float"
     },
     {
       "name": "qtd_reclamaoes_recebidas",
-      "type": "string"
+      "type": "float"
     }
   ]
 }

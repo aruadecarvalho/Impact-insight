@@ -18,7 +18,7 @@ SELECT
 FROM
   ML.PREDICT(MODEL weather_metrics_data.modelo_lightgbm,
   (SELECT
-    Temperatura_diaria,
-    Precipitacao_diaria
+    temperatura_diaria,
+    precipitacao_diaria
   FROM
     weather_metrics_data.weather_metrics));
