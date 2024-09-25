@@ -2,14 +2,14 @@
 SELECT
   *
 FROM
-  ML.FORECAST(MODEL weather_metrics_data.modelo_arima_temperatura, 
+  ML.FORECAST(MODEL weather_metrics_data.modelo_arima_temperatura,
   STRUCT(5 AS horizon, 0.8 AS confidence_level));
 
 -- precipitation
 SELECT
   *
 FROM
-  ML.FORECAST(MODEL weather_metrics_data.modelo_arima_precipitacao, 
+  ML.FORECAST(MODEL weather_metrics_data.modelo_arima_precipitacao,
   STRUCT(5 AS horizon, 0.8 AS confidence_level));
 
 -- weather metrics data
@@ -19,6 +19,8 @@ FROM
   ML.PREDICT(MODEL weather_metrics_data.modelo_lightgbm,
   (SELECT
     temperatura_diaria,
-    precipitacao_diaria
+    precipitacao_diaria,
+    ano,
+    mes
   FROM
     weather_metrics_data.weather_metrics));

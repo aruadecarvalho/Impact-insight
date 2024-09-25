@@ -9,6 +9,8 @@ OPTIONS(
 SELECT
   qtd_reclamacoes_recebidas,
   temperatura_diaria,
-  precipitacao_diaria
+  precipitacao_diaria,
+  ano,
+  mes
 FROM
   weather_metrics_data.weather_metrics;
