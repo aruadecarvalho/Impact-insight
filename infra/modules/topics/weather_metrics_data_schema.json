@@ -17,10 +17,6 @@
     {
       "name": "temperatura_diaria",
       "type": "float"
-    },
-    {
-      "name": "qtd_reclamaoes_recebidas",
-      "type": "float"
     }
   ]
 }

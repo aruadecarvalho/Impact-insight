@@ -1,0 +1,140 @@
+{
+  "estacoes": [
+    {
+      "latitude": "-23.49",
+      "longitude": "-46.62"
+    },
+    {
+      "latitude": "-22.35",
+      "longitude": "-49.02"
+    },
+    {
+      "latitude": "-22.75",
+      "longitude": "-45.60"
+    },
+    {
+      "latitude": "-22.11",
+      "longitude": "-51.40"
+    },
+    {
+      "latitude": "-20.58",
+      "longitude": "-47.38"
+    },
+    {
+      "latitude": "-21.98",
+      "longitude": "-47.88"
+    },
+    {
+      "latitude": "-24.671",
+      "longitude": "-47.54"
+    },
+    {
+      "latitude": "-23.42",
+      "longitude": "-47.58"
+    },
+    {
+      "latitude": "-23.98",
+      "longitude": "-48.88"
+    },
+    {
+      "latitude": "-23.85",
+      "longitude": "-48.16"
+    },
+    {
+      "latitude": "-22.94",
+      "longitude": "-49.89"
+    },
+    {
+      "latitude": "-23.10",
+      "longitude": "-48.94"
+    },
+    {
+      "latitude": "-22.70",
+      "longitude": "-47.62"
+    },
+    {
+      "latitude": "-21.66",
+      "longitude": "-49.73"
+    },
+    {
+      "latitude": "-23.04",
+      "longitude": "-45.52"
+    },
+    {
+      "latitude": "-20.40",
+      "longitude": "-49.96"
+    },
+    {
+      "latitude": "-20.16",
+      "longitude": "-50.59"
+    },
+    {
+      "latitude": "-21.31",
+      "longitude": "-50.93"
+    },
+    {
+      "latitude": "-21.08",
+      "longitude": "-49.92"
+    },
+    {
+      "latitude": "-21.13",
+      "longitude": "-48.84"
+    },
+    {
+      "latitude": "-21.85",
+      "longitude": "-48.79"
+    },
+    {
+      "latitude": "-21.78",
+      "longitude": "-47.07"
+    },
+    {
+      "latitude": "-22.41",
+      "longitude": "-46.80"
+    },
+    {
+      "latitude": "-23.22",
+      "longitude": "-45.41"
+    },
+    {
+      "latitude": "-22.47",
+      "longitude": "-48.55"
+    },
+    {
+      "latitude": "-24.96",
+      "longitude": "-48.41"
+    },
+    {
+      "latitude": "-21.33",
+      "longitude": "-48.11"
+    },
+    {
+      "latitude": "-20.55",
+      "longitude": "-48.54"
+    },
+    {
+      "latitude": "-20.35",
+      "longitude": "-47.77"
+    },
+    {
+      "latitude": "-23.52",
+      "longitude": "-46.86"
+    },
+    {
+      "latitude": "-21.45",
+      "longitude": "-51.55"
+    },
+    {
+      "latitude": "-20.94",
+      "longitude": "-48.48"
+    },
+    {
+      "latitude": "-23.84",
+      "longitude": "-46.14"
+    },
+    {
+      "latitude": "-24.53",
+      "longitude": "-47.86"
+    }
+  ]
+}
