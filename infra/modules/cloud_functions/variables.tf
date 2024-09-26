@@ -9,3 +9,7 @@ variable "region" {
 variable "terraform_sa_email" {
   type = string
 }
+
+variable "weather_api_key" {
+  type = string
+}

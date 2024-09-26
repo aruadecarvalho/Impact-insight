@@ -24,7 +24,7 @@ module "buckets" {
   gcp_project_id = var.gcp_project_id
   location       = var.region
   bucket_name    = var.bucket_name
-  csv_file_name = "analise_dados_oficial.csv"
+  csv_file_name  = "analise_dados_oficial.csv"
 }
 
 module "datasets" {
@@ -44,4 +44,12 @@ module "topics" {
   gcp_project_number         = local.gcp_project_number
   gcp_project_id             = var.gcp_project_id
   depends_on                 = [module.datasets]
+}
+
+module "cloud_functions" {
+  source             = "./modules/cloud_functions"
+  gcp_project_id     = var.gcp_project_id
+  region             = var.region
+  terraform_sa_email = var.terraform_sa_email
+  weather_api_key    = var.weather_api_key
 }

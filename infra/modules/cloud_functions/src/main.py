@@ -12,7 +12,7 @@ def get_estacoes_sp():
 def pull_weather_metrics_and_publish(event):
     estacoes = get_estacoes_sp()
     for estacao in estacoes:
-        api_key = os.environ.get("WEATHER_API_KEY")
+        api_key = os.environ.get("weather_api_key")
         api_url = "http://api.weatherapi.com/v1/current.json" + f"?key={api_key}" f"&q={estacao["latitude"]},{estacao["longitude"]}"
 
         response = requests.get(api_url)
