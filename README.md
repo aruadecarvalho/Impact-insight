@@ -104,3 +104,9 @@ Once the pipeline is set up and running, data predictions and insights are visua
 - Extend the pipeline to support additional regions beyond São Paulo.
 - Enhance the machine learning model by incorporating more features or using alternative algorithms.
 - Improve visualization with more detailed insights and breakdowns.
+
+## Authors
+
+- [@mateuscazuza](https://github.com/mateuscazuza)
+- [@ADIANA2](https://github.com/ADIANA2)
+- [@aruadecarvalho](https://github.com/aruadecarvalho)
